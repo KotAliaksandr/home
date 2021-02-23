@@ -1,0 +1,32 @@
+table {
+	border-spacing: 5px;
+	border: 2px #800080 solid;
+	height: 400px;
+	text-align: center; 
+	background: #F5F5DC;
+}
+
+td {
+	height: 10px;
+	width: 55px;
+	border: 1px #808080 solid;
+	border-radius: 4px;
+	padding: inherit;
+}
+
+button {
+	background: #48D1CC;
+	width: 100%;
+	height: 100%;
+	text-justify: auto;
+	box-shadow: 2px 9px 22px 8px rgba(11, 13, 15, 0.2);
+}
+
+button:hover {
+	background-color: #E9967A;
+}
+
+.higher {
+	height: 60px;
+	background: #AFEEEE;
+}
