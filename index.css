@@ -1,0 +1,95 @@
+.parent {
+	position: relative;
+	top: 100px;
+	left: 100px;
+	height: 520px;
+	width: 520px;
+}
+
+table {
+	border-collapse: collapse;
+}
+
+td {
+	border: 1px black solid;
+	height: 52px;
+	width: 52px;
+	background-color: #8B4513;
+}
+
+.line_name {
+	border: none;
+	text-align: right;
+	background: none;
+}
+
+.litter {
+	border: none;
+	text-align: center;
+	vertical-align: top;
+	background: none;
+}
+
+.one td:nth-child(2n+1) {
+	background: none;
+}
+
+.two td:nth-child(2n) {
+	background: none;
+}
+
+.litter_top {
+	border: none;
+	text-align: center;
+	vertical-align: bottom;
+	background: none;
+}
+
+.right_name {
+	border: none;
+	text-align: left;
+	background: none;
+}
+
+.queen {
+	position: absolute;
+	top: 55px;
+	left: 210px;
+	width: 50px;
+	height: 50px;
+	background-image: url(chess.png);
+	background-repeat: no-repeat;
+	background-position: -50px 0px;
+}
+
+.king {
+	position: absolute;
+    top: 55px;
+    left: 265px;
+    width: 50px;
+    height: 50px;
+    background-image: url(chess.png);
+    background-repeat: no-repeat;
+}
+
+.queen_white {
+	position: absolute;
+	top: 420px;
+	left: 210px;
+	width: 50px;
+	height: 50px;
+	background-image: url(chess.png);
+	background-repeat: no-repeat;
+	background-position: -50px -50px;
+}
+
+.king_white {
+	position: absolute;
+	top: 420px;
+	left: 265px;
+	width: 50px;
+	height: 50px;
+	background-image: url(chess.png);
+	background-repeat: no-repeat;
+	background-position: 0px -50px;
+}
