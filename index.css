@@ -1,32 +1,95 @@
+.parent {
+	position: relative;
+	top: 100px;
+	left: 100px;
+	height: 520px;
+	width: 520px;
+}
+
 table {
-	border-spacing: 5px;
-	border: 2px #800080 solid;
-	height: 400px;
-	text-align: center; 
-	background: #F5F5DC;
+	border-collapse: collapse;
 }
 
 td {
-	height: 10px;
-	width: 55px;
-	border: 1px #808080 solid;
-	border-radius: 4px;
-	padding: inherit;
+	border: 1px black solid;
+	height: 52px;
+	width: 52px;
+	background-color: #8B4513;
 }
 
-button {
-	background: #48D1CC;
-	width: 100%;
-	height: 100%;
-	text-justify: auto;
-	box-shadow: 2px 9px 22px 8px rgba(11, 13, 15, 0.2);
+.line_name {
+	border: none;
+	text-align: right;
+	background: none;
 }
 
-button:hover {
-	background-color: #E9967A;
+.litter {
+	border: none;
+	text-align: center;
+	vertical-align: top;
+	background: none;
 }
 
-.higher {
-	height: 60px;
-	background: #AFEEEE;
+.one td:nth-child(2n+1) {
+	background: none;
+}
+
+.two td:nth-child(2n) {
+	background: none;
+}
+
+.litter_top {
+	border: none;
+	text-align: center;
+	vertical-align: bottom;
+	background: none;
+}
+
+.right_name {
+	border: none;
+	text-align: left;
+	background: none;
+}
+
+.queen {
+	position: absolute;
+	top: 55px;
+	left: 210px;
+	width: 50px;
+	height: 50px;
+	background-image: url(chess.png);
+	background-repeat: no-repeat;
+	background-position: -50px 0px;
+}
+
+.king {
+	position: absolute;
+    top: 55px;
+    left: 265px;
+    width: 50px;
+    height: 50px;
+    background-image: url(chess.png);
+    background-repeat: no-repeat;
+}
+
+.queen_white {
+	position: absolute;
+	top: 420px;
+	left: 210px;
+	width: 50px;
+	height: 50px;
+	background-image: url(chess.png);
+	background-repeat: no-repeat;
+	background-position: -50px -50px;
+}
+
+.king_white {
+	position: absolute;
+	top: 420px;
+	left: 265px;
+	width: 50px;
+	height: 50px;
+	background-image: url(chess.png);
+	background-repeat: no-repeat;
+	background-position: 0px -50px;
 }
