@@ -1,0 +1,192 @@
+.parent {
+	height: 100%;
+	background: linear-gradient(to top, #0033cc 17%, #003366 77%);
+}
+
+heder {
+	height: 10%;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content:space-around;
+}
+
+.logo {
+	width: 9%;
+    height: 80%;
+    margin: 2px 10px;
+}
+
+.cap button {
+	border: 2px #620080 solid;
+	border-radius: 20%;
+	font-size: 1vw;
+	font-weight: bold;
+	background: linear-gradient(to top right, #99ffcc 24%, #009999 95%);
+	padding: 1px 2px;
+	cursor: pointer;
+}
+
+#registr {
+	background: #f85306fd;
+	outline: none;
+	border-radius: 50%;
+	height: 50%;
+}
+
+.cap button:active, #registr:active {
+	background: #7CFC00;
+}
+
+#open {
+	width: 100%;
+	height: 100%;
+	background: rgba(100, 100, 100, 0.5);
+	position: absolute;
+	top: 0;
+	left: 0;
+	display: none;
+}
+
+#open:target {
+	display: block;
+}
+
+.wrapper {
+    border: 1px solid;
+    width: 30%;
+    position: absolute;
+    top: 5%;
+    left: 40%;
+    text-align: center;
+	font-size: 1vw;
+	background: #99ffcc;
+}
+
+.wrapper div {
+    margin: 5px;
+}
+
+label, input  {
+    margin: 5px 15px;
+	padding: 5px;
+}
+
+.gender_btns {
+    border: 1px solid;
+    bottom: 2px;
+    padding: 5px;
+}
+
+.gender_btns input {
+    display: inline-block;
+}
+
+input:invalid {
+	background: darkred;
+}
+
+input:valid {
+	background: forestgreen;
+}
+
+form:invalid h1 {
+	color: darkred;
+}
+
+form:valid h1 {
+	color: forestgreen;
+}
+
+form:invalid button[type="submit"] {
+	background-color: darkred;
+	pointer-events: none;
+}
+
+.middle {
+	height: 70%;
+	background-color: white;
+	display: flex;
+	flex-direction: row;
+}
+
+.middle_left {
+	width: 35%;
+	height: 100%;
+	background-image: url(https://media.istockphoto.com/photos/table-tennis-player-picture-id526209153?k=6&m=526209153&s=612x612&w=0&h=298nwJY9F3e1tl_aqWazcjM4RiF0IUQzoYhLRPSjhVI=);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.middle_left div {
+	height: 15%;
+	width: 95%;
+	color: #c98555;
+	text-align: center;
+	margin: 10px;
+	font-size: 2vw;
+}
+
+.middle_left a {
+	color: #c98555;
+}
+
+.midle_right {
+	width: 65%;
+	height: 100%;
+	background: linear-gradient(to right, #0066ff 24%, #cc99ff 95%);
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+.center {
+	width: 55%;
+	height: 90%;
+	border: 2px #40E0D0 solid;
+	overflow: scroll;
+	margin: 2% 1%;
+	background: linear-gradient(to right, #ccffcc 24%, #ccffff 95%); 
+}
+
+.center img {
+	width: 50%;
+	height: 50%;
+	float: left;
+	margin-right: 5px;
+}
+
+.center p {
+	text-align: justify;
+	margin: 5px;
+}
+
+.right {
+	margin: 5% 2%;
+	text-align: center;
+	font-size: 2vw;
+} 
+
+.bottom {
+	height: 20%;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-evenly;
+	text-align: center;
+	font-size: 1vw;
+}
+
+.bottom div {
+	width: 30%;
+}
+
+.img img {
+	width: 40%;
+    height: 80%;
+}
+
+.sponsor {
+	width: 40%;
+    height: 60%;
+}
