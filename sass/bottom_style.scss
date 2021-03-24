@@ -1,0 +1,24 @@
+@import "./variables.scss";
+
+.bottom {
+	@extend %grids;
+	grid-template-columns: repeat(3, 1fr);
+	text-align: center;
+	font-size: 1vw;
+	padding: 10px;
+
+    div {
+        width: 100%;
+        height: 19vh;
+    }
+
+    .img img {
+        width: 50%;
+        height: 80%;
+    }
+
+    .sponsor {
+        width: 30%;
+        height: 50%;
+    }
+}

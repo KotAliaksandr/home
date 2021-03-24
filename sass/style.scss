@@ -1,0 +1,11 @@
+@import "./form_style.scss";
+@import "./cap_style.scss";
+@import "./middle_style.scss";
+@import "./bottom_style.scss";
+@import "./variables.scss";
+
+.parent {
+	background: linear-gradient(to top, #0033cc 17%, #003366 77%);
+	grid-template-rows: 15vh 50vh 20vh;
+	@extend %grids;
+}
