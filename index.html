@@ -1,0 +1,46 @@
+<html>
+	<head>
+		<title>Calculator</title>
+		<link rel="stylesheet" href="./index.css">
+	</head>
+	<body>
+		<table>
+			<tr>
+				<td class="higher" colspan="5" id="screen"></td>
+			</tr>
+			<tr>
+				<td><button onclick="delete_number()">&larr;</button></td>
+				<td><button onclick="number_one('CE')">CE</button></td>
+				<td><button onclick="delete_all()">C</button></td>
+				<td><button onclick="number_one('&plusmn;')">&plusmn;</button></td>
+				<td><button onclick="number_one('&radic;')">&radic;</button></td>
+			</tr>
+			<tr>
+				<td><button onclick="number_one('7')">7</button></td>
+				<td><button onclick="number_one('8')">8</button></td>
+				<td><button onclick="number_one('9')">9</button></td>
+				<td><button onclick="number_one('/')">/</button></td>
+				<td><button onclick="number_one('%')">%</button></td>
+			</tr>
+			<tr><td><button onclick="number_one('4')">4</button></td>
+				<td><button onclick="number_one('5')">5</button></td>
+				<td><button onclick="number_one('6')">6</button></td>
+				<td><button onclick="number_one('*')">*</button></td>
+				<td><button onclick="number_one('1/x')">1/x</button></td>
+			</tr>
+			<tr>
+				<td><button onclick="number_one('1')">1</button></td>
+				<td><button onclick="number_one('2')">2</button></td>
+				<td><button onclick="number_one('3')">3</button></td>
+				<td><button onclick="number_one('-')">-</button></td>
+				<td rowspan="2"><button onclick="equality()">=</button></td>
+			</tr>
+			<tr>
+				<td colspan="2"><button onclick="number_one('0')">0</button></td>
+				<td><button onclick="number_one('.')">.</button></td>
+				<td><button onclick="number_one('+')">+</button></td>
+			</tr>
+		</table>
+		<script src="index.js"></script>
+	</body>
+</html>
