@@ -1,0 +1,13 @@
+input {
+    margin: 10px;
+}
+
+li {
+    margin: 10px;
+    color: lime;
+}
+
+button {
+    margin-left: 10px;
+    background-color: khaki;
+}
