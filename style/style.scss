@@ -1,0 +1,34 @@
+.wrapper {
+    background-color: sandybrown;
+    display: flex;
+    padding: 10px;
+    border: solid 1px;
+    justify-content: space-between;
+
+    #block {
+        width: 40%;
+        background-color: rebeccapurple;
+        overflow: scroll;
+        padding-left: 5%;
+        
+        button {
+            margin: 10%;
+            border-radius: 40%;
+            height: 1%;
+            background-color: orangered;
+        }
+    };
+
+    #trueAdd {
+        width: 25%;
+        background-color: seagreen;
+        overflow: scroll;
+    }
+
+    #falseAdd {
+        width: 25%;
+        background-color: crimson;
+        overflow: scroll;
+    }
+
+}
