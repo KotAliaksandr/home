@@ -1,0 +1,55 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    .forForm {
+        margin: 2vh 2vw;
+        padding: 1vh 10vw;
+        text-align: center;
+        font-size: 2vh;
+        border: solid 1px;
+        background-color: rgb(255, 244, 140);
+        border-radius: 1% ;
+        width: 60vw;
+
+        input {
+            height: 4vh;
+        }
+
+        button {
+            padding: 5px 10px;
+            font-size: 2vh;
+            height: 4vh;
+            width: auto;
+            height: auto;
+        }
+    }
+
+    table {
+        margin: 1%;
+        background-color: rgb(13,110,253);
+        width: 95vw;
+        font-size: 2vh;
+        color: #ffffff;
+
+        tr {
+            th {
+                font-family: Arial, Helvetica, sans-serif;
+                padding: 5px 10px;
+                text-align: center;
+                border: solid #000000 1px;
+            }
+        }
+    }
+
+    #getRecordBtn {
+        font-size: 2vh;
+        padding: 5px 10px;
+        width: auto;
+        height: auto;
+        background-color: rgb(255, 244, 140);
+        color: #000000;
+    }
+}

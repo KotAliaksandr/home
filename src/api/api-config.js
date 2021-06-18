@@ -1,0 +1,1 @@
+export const databaseURL = 'https://newtest-288b7-default-rtdb.firebaseio.com';
